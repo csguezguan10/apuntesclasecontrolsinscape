@@ -51,12 +51,13 @@ En Simscape Multibody, esto se ajusta dentro del bloque de configuración del mu
 
 set_param('miModelo/WorldFrame', 'Gravity', '[0 0 -9.81]');
 
-![Diagrama que muestra la configuración del mundo](images/multibody/gravedad.jpeg) //
+![Diagrama que muestra la configuración del mundo](images/multibody/gravedad.jpeg) 
  
 💡**Figura 3**
  Diagrama que muestra la configuración del mundo y parámetros de gravedad en el entorno de simulación.
 
 💡**Ejemplo 3**:
+
 ![Diagrama del Bloque de Configuración](images/multibody/multibody.jpeg)  
 Figura 4. Modelo de un mecanismo en Simscape Multibody.
 
@@ -68,7 +69,9 @@ Configure un sistema de doble péndulo en Simscape Multibody.
 Use diferentes solvers (ode45 y ode15s).
 Analice el comportamiento en términos de estabilidad y tiempo de simulación.
 Diagrama del Doble Péndulo:
-![Diagrama del Bloque de Configuración](images/multibody/pendulo.jpeg) 
+
+![Diagrama del Bloque de Configuración](images/multibody/doblependulo.png)
+
 Figura 5. Diagrama esquemático de un doble péndulo.
 
 📚 **Ejercicio 2** :
