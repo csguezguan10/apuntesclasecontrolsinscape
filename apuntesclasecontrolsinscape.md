@@ -61,9 +61,9 @@ set_param('miModelo/WorldFrame', 'Gravity', '[0 0 -9.81]');
 ![Diagrama del Bloque de Configuración](images/multibody/multibody.jpeg)  
 Figura 4. Modelo de un mecanismo en Simscape Multibody.
 
-7. Ejercicios
+7. Ejercicio
 
-📚 **Ejercicio 1**:
+ **Ejercicio 1**:
 Configure un sistema de doble péndulo en Simscape Multibody.
 
 Use diferentes solvers (ode45 y ode15s).
@@ -73,15 +73,6 @@ Diagrama del Doble Péndulo:
 ![Diagrama del Bloque de Configuración](images/multibody/doblependulo.png)
 
 Figura 5. Diagrama esquemático de un doble péndulo.
-
-📚 **Ejercicio 2** :
-Simule la caída libre de un objeto en diferentes entornos de gravedad:
-
-Tierra: $ g = -9.81 \ m/s^2 $
-Luna: $ g = -1.62 \ m/s^2 $
-Marte: $ g = -3.71 \ m/s^2 $
-
-Compare los tiempos de caída y la velocidad final.
 
 ## 8. Conclusiones
 
