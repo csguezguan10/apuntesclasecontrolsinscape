@@ -33,7 +33,7 @@ El **bloque de configuración de Simscape Multibody** establece los parámetros 
 - **Tipo de Solver**: Se recomienda usar *Variable-Step* para mayor precisión en sistemas dinámicos complejos.  
 - **Paso de Integración**: Un paso más pequeño mejora la precisión, pero aumenta el costo computacional.
 
-![Diagrama del Bloque de Configuración](images/multibody/multibody.png)  
+![Diagrama del Bloque de Configuración](images/multibody/solver.jpeg)  
 Figura 2. Bloque de configuración en Simscape Multibody mostrando opciones de solver y paso de integración.
 
 ## 4. Configuración de Mundo y Gravedad  
@@ -51,13 +51,13 @@ En Simscape Multibody, esto se ajusta dentro del bloque de configuración del mu
 
 set_param('miModelo/WorldFrame', 'Gravity', '[0 0 -9.81]');
 
-![Diagrama que muestra la configuración del mundo](images/multibody/gravedad.png) //
+![Diagrama que muestra la configuración del mundo](images/multibody/gravedad.jpeg) //
  
 💡**Figura 3**
  Diagrama que muestra la configuración del mundo y parámetros de gravedad en el entorno de simulación.
 
 💡**Ejemplo 3**:
-![Diagrama del Bloque de Configuración](images/multibody/multibody.png)  
+![Diagrama del Bloque de Configuración](images/multibody/multibody.jpeg)  
 Figura 4. Modelo de un mecanismo en Simscape Multibody.
 
 7. Ejercicios
@@ -68,7 +68,7 @@ Configure un sistema de doble péndulo en Simscape Multibody.
 Use diferentes solvers (ode45 y ode15s).
 Analice el comportamiento en términos de estabilidad y tiempo de simulación.
 Diagrama del Doble Péndulo:
-
+![Diagrama del Bloque de Configuración](images/multibody/pendulo.jpeg) 
 Figura 5. Diagrama esquemático de un doble péndulo.
 
 📚 **Ejercicio 2** :
